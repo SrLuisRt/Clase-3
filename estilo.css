@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(90, 117, 173);
+    font-family: "Montserrat", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(20,123,54,0.1);
+}
+
+header{
+    text-align: center;
+    color: rgb(63, 137, 173);
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./Img/Fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid ;
+    box-shadow: 0px 0px 10px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.container_arreglo_de_fondo{
+    background-color: rgb(175, 207, 207);
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.container_foto_perfil{
+    width: 280px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #86cccc;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(134, 189, 202, 0.5);
+}
+
+.container_foto_perfil_img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img{
+    object-fit: cover;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.cambio_lugar{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
