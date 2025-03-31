@@ -86,3 +86,49 @@ img{
     margin-left: 1%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(14,16 ,16 )
+}
+
+section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.5);
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: #86cccc;
+    margin: 10px 0;
+}
+
+ul{
+   list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+i{
+    color: #86cccc;
+    margin-right: 8px;
+}
+
+address p{
+    margin: 5px 0;
+}
+address a{
+    color: #86cccc;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 15px;
+}
